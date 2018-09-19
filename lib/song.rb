@@ -13,7 +13,7 @@ attr_accessor :name, :artist, :genre
     @@artists << artist
     @@genres << genre
 
-    def count
+    def self.count
       @@count
     end
   end
