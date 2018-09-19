@@ -1,7 +1,9 @@
 class Song
 
-  def new(name, artist, genre)
+  def initialize
+    def new(name, artist, genre)
 
+    end
   end
 end
   
