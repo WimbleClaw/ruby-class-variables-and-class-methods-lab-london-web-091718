@@ -30,5 +30,6 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
     count = {}
     count[self.genres] = self.count
+    binding.pry
   end
 end
