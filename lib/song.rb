@@ -29,7 +29,8 @@ attr_accessor :name, :artist, :genre
 
   def self.genre_count
     count = {}
-    count[self.genres] = self.count
+    self.genres.each do |genre|
     binding.pry
+    end
   end
 end
