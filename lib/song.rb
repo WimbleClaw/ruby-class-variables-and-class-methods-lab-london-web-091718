@@ -29,6 +29,6 @@ attr_accessor :name, :artist, :genre
 
   def self.genre_count
     count = {}
-    count[self.genre] = self.count
+    count[self.genres] = self.count
   end
 end
